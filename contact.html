@@ -9,34 +9,49 @@
 <meta name="description" content="The HTML5 Herald">
 <link rel="stylesheet" href="style.css">
 
-<!--...
-    <div id='cssmenu'>
-<ul>
-   <li class='active'><a href='index.html'><span>Home</span></a></li>
-   <li><a href='usa.html'><span>America</span></a></li>
-    <li><a href='singapore.html'><span>Singapore</span></a></li>
-   <li class='last'><a href='contact.html'><span>Contact</span></a></li>
-</ul>
-</div>
-    
-
-<nav id='menu'>
-<ui>     
-    <li><a class="homediv" href='index.html'> Home </a></li>
-    <li><a  href='usa.html'> America </a></li>
-    <li><a  href='singapore.html'> Singapore </a></li>
-    <li><a  href='contact.html'> Contact </a></li>
-</ui>
-</nav>
--->
 <nav> 
     <a class="nav" href="index.html">Home</a>
+    <a class='nav'>|</a>
     <a class="nav" href="usa.html">America</a>
+    <a class='nav'>|</a>
     <a class="nav" href="singapore.html">Singapore</a>
+    <a class='nav'>|</a>
     <a class="navactive" href="contact.html">Contact</a>
 </nav> 
 <h1> Contact</h1>
 
-<p>aaaaaa</p>
+<p>aaaaaa
+    
+<form action="" method="post" class="basic-grey">
+    <h1>Contact Form 
+        <span>Please fill all the texts in the fields.</span>
+    </h1>
+    <label>
+        <span>Your Name :</span>
+        <input id="name" type="text" name="name" placeholder="Your Full Name" />
+    </label>
+    
+    <label>
+        <span>Your Email :</span>
+        <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+    </label>
+    
+    <label>
+        <span>Message :</span>
+        <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
+    </label> 
+     <label>
+        <span>Subject :</span><select name="selection">
+        <option value="Job Inquiry">Job Inquiry</option>
+        <option value="General Question">General Question</option>
+        </select>
+    </label>    
+     <label>
+        <span>&nbsp;</span> 
+        <input type="button" class="button" value="Send" /> 
+    </label>    
+</form>
+      
+<p><a href="https://plus.google.com/u/0/113196636445628848625/about/p/pub?rel=author">Google</a></p>
 </body>
 </html>
