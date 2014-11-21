@@ -24,7 +24,10 @@
     font-family: 'Singapore';
     src: url('fonts/singapore.ttf');
 }
-
+@font-face {
+    font-family: 'GoodDog';
+    src: url('fonts/Gooddog.otf');
+}
 body {
 
     position: relative;
@@ -47,7 +50,7 @@ body {
 }
 
 h1 {
-    font-family: 'caviardreams', 'Georgia', serif;
+    font-family: 'gooddog', 'Georgia', serif;
     color:#DFE2DB;
     font-size: 105px;
     text-align: center;
@@ -89,10 +92,12 @@ p, ul {
 }
 
 .nav {
+    font-family: 'gooddog', 'Georgia', serif;
+    color:#DFE2DB;
     margin-left: 10px;
     padding-top: -10px;
     color: white;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .nav:hover{
@@ -101,10 +106,12 @@ p, ul {
 }
 
 .navactive {
+    font-family: 'gooddog', 'Georgia', serif;
+    color:#DFE2DB;
     margin-left: 10px;
     padding-top: -10px;
     color: #DE1B1B;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .container {
