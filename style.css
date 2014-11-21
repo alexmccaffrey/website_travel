@@ -28,6 +28,11 @@
     font-family: 'GoodDog';
     src: url('fonts/Gooddog.otf');
 }
+@font-face {
+    font-family: 'Droid';
+    src: url('fonts/DroidSans.ttf');
+}
+
 body {
 
     position: relative;
@@ -50,7 +55,7 @@ body {
 }
 
 h1 {
-    font-family: 'gooddog', 'Georgia', serif;
+    font-family: 'Droid', 'Georgia', serif;
     color:#DFE2DB;
     font-size: 105px;
     text-align: center;
@@ -64,7 +69,7 @@ h1 {
     text-align: center;
     width: 355px;
     height: 170px;
-    margin-left: 500px;
+    margin-left: 750px;
     margin-top: -50px;
     color: white;    
 }
@@ -75,7 +80,7 @@ h1 {
     text-align: center;
     width: 355px;
     height: 170px;
-    margin-left: 560px;
+    margin-left: 750px;
     margin-top: -50px;
     color: white;    
 }
@@ -92,7 +97,7 @@ p, ul {
 }
 
 .nav {
-    font-family: 'gooddog', 'Georgia', serif;
+    font-family: 'droid', 'Georgia', serif;
     color:#DFE2DB;
     margin-left: 10px;
     padding-top: -10px;
@@ -106,7 +111,7 @@ p, ul {
 }
 
 .navactive {
-    font-family: 'gooddog', 'Georgia', serif;
+    font-family: 'droid', 'Georgia', serif;
     color:#DFE2DB;
     margin-left: 10px;
     padding-top: -10px;
