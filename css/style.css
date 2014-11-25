@@ -51,9 +51,9 @@ body {
 }
 
 h1 {
-    font-family: 'Droid', 'Georgia', serif;
+    font-family: 'Roboto-Light', 'Georgia', serif;
     color:#DFE2DB;
-    font-size: 105px;
+    font-size: 80px;
     text-align: center;
     text-decoration: underline;
     margin-top: -0.5%;
@@ -93,12 +93,12 @@ p, ul {
 }
 
 .nav {
-    font-family: 'droid', 'Georgia', serif;
+    font-family: 'Roboto-Light', 'Georgia', serif;
     color:#DFE2DB;
     margin-left: 10px;
     padding-top: -10px;
     color: white;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .nav:hover{
@@ -112,7 +112,7 @@ p, ul {
     margin-left: 10px;
     padding-top: -10px;
     color: #DE1B1B;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .container {
